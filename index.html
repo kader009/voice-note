@@ -10,11 +10,20 @@
 </head>
 <body>
   <div class="player">
-    <h2>Your Special Voice Note</h2>
-    <audio id="audioPlayer" src="./media/Tumi Jake Bhalobaso - Male (Praktan)-(Mr-Jat.in).mp3"></audio>
-    <button id="playButton"><i class="fa fa-play"></i> Play</button>
-    <button id="pauseButton">Pause</button>
-    <button id="restartButton">Restart</button>
+    <h2>Adhara's Love Tunes</h2>
+    <audio id="audioPlayer"></audio>
+
+    <div id="songList">
+      <button class="songButton" data-src="./media/Tumi Jake Bhalobaso - Male (Praktan)-(Mr-Jat.in).mp3">Tumi Jake Bhalobaso</button>
+      <button class="songButton" data-src="./media/AnotherSong.mp3">Another Song</button>
+      <!-- Add more songs here -->
+    </div>
+
+    <div class="controls">
+      <button id="playButton"><i class="fa fa-play"></i> Play</button>
+      <button id="pauseButton"><i class="fa fa-pause"></i> Pause</button>
+      <button id="restartButton"><i class="fa fa-undo"></i> Restart</button>
+    </div>
   </div>
 
   <script src="./script.js"></script>
