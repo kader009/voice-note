@@ -15,6 +15,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   margin: 5px;
+  margin-top: 15%;
 }
 .player button {
   background-color: #ff6f61;
@@ -38,3 +39,8 @@ body {
   color: #333;
 }
 
+@media screen and (max-width: 360px) {
+  .player {
+    margin-top: 5px;
+  }
+}
