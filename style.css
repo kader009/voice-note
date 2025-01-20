@@ -9,14 +9,18 @@ body {
   margin: 0;
 }
 .player {
-  background: white;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent White */
+  backdrop-filter: blur(10px); /* Blur Effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari Support */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle Border */
   text-align: center;
   margin: 5px;
   margin-top: 15%;
 }
+
 .player button {
   background-color: #ff6f61;
   color: white;
